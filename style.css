@@ -1,0 +1,108 @@
+		*{padding: 0;margin: 0;box-sizing: border-box;}
+		.nav{background-color: #fc4311}
+		.navbar-brand{font-size: 40px}
+		.nav-item{padding-left: 19px;}
+		.nav-link{color: white;font-size: 17px;font-weight: 500}
+		.nav-link:hover{color: black;}
+		
+		
+		.carousel-inner{position: relative;}
+		.carousel-item h1{font-size: 70px}
+		.carousel-caption{}
+		.carousel-caption p{font-size: 17px;}
+		.carousel-caption button{background-color:#fc4311;padding: 15px 50px;border-radius: 0px;transition: 1s;}
+		.carousel-caption button:hover{background-color: white;color:#fc4311;border-radius: 20px;transition: 1s;}
+		
+		.title h2{font-size: 40px}
+		.title p{text-align-last: center;font-size: 18px; }
+		.about{padding-left: 150px}
+		.about h2{font-size: 35px;}
+		.about p{font-size: 17px;padding-right: 18px;color: grey;line-height: 30px}
+
+		.btn{background-color:black;padding: 17px 60px;border-radius: 0px;color: white;transition: 1s}
+		.btn:hover{background-color:#fc4311;border-radius: 20px;transition: 1s;color: white }
+		.screenshot p{padding: 0px 60px;text-align-last:center;}
+
+	
+		.box{margin-bottom: 30px;position: relative;}
+		.box img{border-radius: 20px;width: 100%;}
+		.box span{position: absolute;top: 0;left: 0;right: 0;bottom: 0;text-align: center;display: flex;justify-content: center;align-items: center;border-radius: 20px;z-index: 5}
+		.box span h5{position:absolute; color: red;z-index: 2}
+		.box:hover span{background-color: #fc4311;opacity: .7;}
+		.box:hover h5{border: 1px solid white;color: white;padding: 10px 40px;opacity: 1;}
+
+		.serviceData{margin:auto;padding: 0px 15px;margin-bottom: 30px}
+		.serviceData h2{font-weight: bolder;font-size: 40px;color: red}
+		.serviceData p{font-size: 15px;text-align-last:center; }
+
+		
+		.blog figure img{width: 100%;}
+		
+		.blog figure span{position: absolute;top: 0;left: 15;padding: 10px 30px;background-color: #fc4311;color: white}
+		.blog1{float: left;font-size: 15px;color: #fc4311}
+		.blog2{float: right}
+		.blogA,.blogC{color: #fc4311}
+		.blogB,.blogD, .blog p{color: grey}
+		.blog p{font-size: 18px;line-height: 30px}
+		
+		.contact h1{font-size: 50px;font-weight: 900;padding-top: 50px;color: white}
+		.contact1 div{margin-bottom: 10px;margin-top: 20px;}
+		.contact1 input, .contact textarea{border: 1px solid grey}
+
+		.base, .base .container{background-color: fc4311}
+		
+		.subscribe{padding:8px 30px;background-color: black;color: #fc4311;font-size: 20px;border: 0;font-weight: 500}
+		.subscribe:hover{background-color: white}
+		
+		#myScreenshot img{max-width: 90%}
+
+		.sc1{background-color: black;width: 50px;height: 50px;vertical-align: middle;top:40%;}
+		.sc1:hover{background-color: #fc4311}
+		.control1{background-color: white;width: 70px;height: 70px;vertical-align: middle;top:40%;border-radius: 40px;left: -10;color: black}
+		.control2{background-color: white;width: 70px;height: 70px;vertical-align: middle;top:40%;border-radius: 40px;right: -10;color: black}
+
+
+		.control1:hover{background-color: #fc4311}
+		.control2:hover{background-color: #fc4311}
+
+
+		@media screen and (min-width: 768px) and (max-width: 1100px)
+		{
+
+			.search_icon{display: none;}
+			.nav-item{font-size: 15px;}
+			.carousel-caption{top:5%;}
+			.carousel-caption h1{font-size: 50px}
+			.carousel-caption p{font-size: 16px;}
+			.about{padding:0 18px;max-width: 550px;margin-left: auto;}
+			.about h2{font-size: 33px;padding-right: 0px}
+			.about p{font-size: 16.5px;padding-right: 18px;color: grey}
+			figure img{vertical-align: middle}
+
+			
+		}
+		@media screen and (min-width: 550px) and (max-width: 768px)
+		{
+			.title h2{font-size: 30px}
+			.search_icon{display: none;}
+			.carousel-caption{top:15%;}
+			.carousel-caption h1{font-size: 35px}
+			.carousel-caption p{display: none}
+			.carousel-caption button{margin-top: 20px;padding:15px 50px;}
+			.about{padding-left: 0px 18px}
+		
+
+			
+		}
+		@media screen and (max-width: 550px)
+		{
+ 			.title h2{font-size: 30px}
+			.carousel-caption p{display: none;}
+			.carousel-caption h1{font-size: 30px;margin-bottom: 20px}
+			.carousel-caption{top: 10%}
+			.about h2{font-size: 20px}
+			.about{padding: 0px 18px}
+			.box figure{max-width: 50%;}
+
+			
+			}
